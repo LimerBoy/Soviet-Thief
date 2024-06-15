@@ -1,0 +1,336 @@
+﻿  aes_256_gcm_decryptor.cpp
+F:\Projects\Yandex\YandexDecrypt\aes_256_gcm_decryptor.cpp(25,83): warning C4267: аргумент: преобразование из "size_t" в "ULONG"; возможна потеря данных
+F:\Projects\Yandex\YandexDecrypt\aes_256_gcm_decryptor.cpp(38,19): warning C4267: =: преобразование из "size_t" в "ULONG"; возможна потеря данных
+F:\Projects\Yandex\YandexDecrypt\aes_256_gcm_decryptor.cpp(45,24): warning C4267: =: преобразование из "size_t" в "ULONG"; возможна потеря данных
+F:\Projects\Yandex\YandexDecrypt\aes_256_gcm_decryptor.cpp(51,8): warning C4267: аргумент: преобразование из "size_t" в "ULONG"; возможна потеря данных
+  main.cpp
+  sha1.cpp
+  yadecryptor.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2510,1): warning C4005: STATUS_WAIT_0: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(66,1):
+  см. предыдущее определение "STATUS_WAIT_0"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2511,1): warning C4005: STATUS_ABANDONED_WAIT_0: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(222,1):
+  см. предыдущее определение "STATUS_ABANDONED_WAIT_0"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2512,1): warning C4005: STATUS_USER_APC: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(245,1):
+  см. предыдущее определение "STATUS_USER_APC"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2513,1): warning C4005: STATUS_TIMEOUT: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(281,1):
+  см. предыдущее определение "STATUS_TIMEOUT"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2514,1): warning C4005: STATUS_PENDING: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(290,1):
+  см. предыдущее определение "STATUS_PENDING"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2515,1): warning C4005: DBG_EXCEPTION_HANDLED: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(737,1):
+  см. предыдущее определение "DBG_EXCEPTION_HANDLED"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2516,1): warning C4005: DBG_CONTINUE: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(746,1):
+  см. предыдущее определение "DBG_CONTINUE"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2517,1): warning C4005: STATUS_SEGMENT_NOTIFICATION: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(821,1):
+  см. предыдущее определение "STATUS_SEGMENT_NOTIFICATION"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2518,1): warning C4005: STATUS_FATAL_APP_EXIT: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(984,1):
+  см. предыдущее определение "STATUS_FATAL_APP_EXIT"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2519,1): warning C4005: DBG_REPLY_LATER: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(1304,1):
+  см. предыдущее определение "DBG_REPLY_LATER"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2520,1): warning C4005: DBG_TERMINATE_THREAD: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(1322,1):
+  см. предыдущее определение "DBG_TERMINATE_THREAD"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2521,1): warning C4005: DBG_TERMINATE_PROCESS: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(1331,1):
+  см. предыдущее определение "DBG_TERMINATE_PROCESS"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2522,1): warning C4005: DBG_CONTROL_C: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(1340,1):
+  см. предыдущее определение "DBG_CONTROL_C"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2523,1): warning C4005: DBG_PRINTEXCEPTION_C: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(1349,1):
+  см. предыдущее определение "DBG_PRINTEXCEPTION_C"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2524,1): warning C4005: DBG_RIPEXCEPTION: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(1358,1):
+  см. предыдущее определение "DBG_RIPEXCEPTION"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2525,1): warning C4005: DBG_CONTROL_BREAK: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(1367,1):
+  см. предыдущее определение "DBG_CONTROL_BREAK"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2526,1): warning C4005: DBG_COMMAND_EXCEPTION: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(1376,1):
+  см. предыдущее определение "DBG_COMMAND_EXCEPTION"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2527,1): warning C4005: DBG_PRINTEXCEPTION_WIDE_C: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(1385,1):
+  см. предыдущее определение "DBG_PRINTEXCEPTION_WIDE_C"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2528,1): warning C4005: STATUS_GUARD_PAGE_VIOLATION: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(1417,1):
+  см. предыдущее определение "STATUS_GUARD_PAGE_VIOLATION"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2529,1): warning C4005: STATUS_DATATYPE_MISALIGNMENT: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(1428,1):
+  см. предыдущее определение "STATUS_DATATYPE_MISALIGNMENT"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2530,1): warning C4005: STATUS_BREAKPOINT: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(1439,1):
+  см. предыдущее определение "STATUS_BREAKPOINT"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2531,1): warning C4005: STATUS_SINGLE_STEP: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(1450,1):
+  см. предыдущее определение "STATUS_SINGLE_STEP"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2532,1): warning C4005: STATUS_LONGJUMP: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(1753,1):
+  см. предыдущее определение "STATUS_LONGJUMP"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2533,1): warning C4005: STATUS_UNWIND_CONSOLIDATE: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(1780,1):
+  см. предыдущее определение "STATUS_UNWIND_CONSOLIDATE"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2534,1): warning C4005: DBG_EXCEPTION_NOT_HANDLED: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(1884,1):
+  см. предыдущее определение "DBG_EXCEPTION_NOT_HANDLED"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2535,1): warning C4005: STATUS_ACCESS_VIOLATION: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(2030,1):
+  см. предыдущее определение "STATUS_ACCESS_VIOLATION"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2536,1): warning C4005: STATUS_IN_PAGE_ERROR: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(2039,1):
+  см. предыдущее определение "STATUS_IN_PAGE_ERROR"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2537,1): warning C4005: STATUS_INVALID_HANDLE: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(2057,1):
+  см. предыдущее определение "STATUS_INVALID_HANDLE"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2538,1): warning C4005: STATUS_INVALID_PARAMETER: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(2102,1):
+  см. предыдущее определение "STATUS_INVALID_PARAMETER"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2539,1): warning C4005: STATUS_NO_MEMORY: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(2202,1):
+  см. предыдущее определение "STATUS_NO_MEMORY"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2540,1): warning C4005: STATUS_ILLEGAL_INSTRUCTION: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(2259,1):
+  см. предыдущее определение "STATUS_ILLEGAL_INSTRUCTION"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2541,1): warning C4005: STATUS_NONCONTINUABLE_EXCEPTION: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(2340,1):
+  см. предыдущее определение "STATUS_NONCONTINUABLE_EXCEPTION"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2542,1): warning C4005: STATUS_INVALID_DISPOSITION: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(2349,1):
+  см. предыдущее определение "STATUS_INVALID_DISPOSITION"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2543,1): warning C4005: STATUS_ARRAY_BOUNDS_EXCEEDED: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(3282,1):
+  см. предыдущее определение "STATUS_ARRAY_BOUNDS_EXCEEDED"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2544,1): warning C4005: STATUS_FLOAT_DENORMAL_OPERAND: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(3292,1):
+  см. предыдущее определение "STATUS_FLOAT_DENORMAL_OPERAND"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2545,1): warning C4005: STATUS_FLOAT_DIVIDE_BY_ZERO: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(3302,1):
+  см. предыдущее определение "STATUS_FLOAT_DIVIDE_BY_ZERO"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2546,1): warning C4005: STATUS_FLOAT_INEXACT_RESULT: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(3312,1):
+  см. предыдущее определение "STATUS_FLOAT_INEXACT_RESULT"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2547,1): warning C4005: STATUS_FLOAT_INVALID_OPERATION: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(3322,1):
+  см. предыдущее определение "STATUS_FLOAT_INVALID_OPERATION"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2548,1): warning C4005: STATUS_FLOAT_OVERFLOW: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(3332,1):
+  см. предыдущее определение "STATUS_FLOAT_OVERFLOW"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2549,1): warning C4005: STATUS_FLOAT_STACK_CHECK: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(3342,1):
+  см. предыдущее определение "STATUS_FLOAT_STACK_CHECK"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2550,1): warning C4005: STATUS_FLOAT_UNDERFLOW: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(3352,1):
+  см. предыдущее определение "STATUS_FLOAT_UNDERFLOW"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2551,1): warning C4005: STATUS_INTEGER_DIVIDE_BY_ZERO: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(3362,1):
+  см. предыдущее определение "STATUS_INTEGER_DIVIDE_BY_ZERO"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2552,1): warning C4005: STATUS_INTEGER_OVERFLOW: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(3372,1):
+  см. предыдущее определение "STATUS_INTEGER_OVERFLOW"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2553,1): warning C4005: STATUS_PRIVILEGED_INSTRUCTION: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(3382,1):
+  см. предыдущее определение "STATUS_PRIVILEGED_INSTRUCTION"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2554,1): warning C4005: STATUS_STACK_OVERFLOW: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(4328,1):
+  см. предыдущее определение "STATUS_STACK_OVERFLOW"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2555,1): warning C4005: STATUS_DLL_NOT_FOUND: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(4845,1):
+  см. предыдущее определение "STATUS_DLL_NOT_FOUND"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2556,1): warning C4005: STATUS_ORDINAL_NOT_FOUND: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(4874,1):
+  см. предыдущее определение "STATUS_ORDINAL_NOT_FOUND"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2557,1): warning C4005: STATUS_ENTRYPOINT_NOT_FOUND: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(4884,1):
+  см. предыдущее определение "STATUS_ENTRYPOINT_NOT_FOUND"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2558,1): warning C4005: STATUS_CONTROL_C_EXIT: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(4894,1):
+  см. предыдущее определение "STATUS_CONTROL_C_EXIT"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2559,1): warning C4005: STATUS_DLL_INIT_FAILED: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(4972,1):
+  см. предыдущее определение "STATUS_DLL_INIT_FAILED"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2560,1): warning C4005: STATUS_CONTROL_STACK_VIOLATION: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(5969,1):
+  см. предыдущее определение "STATUS_CONTROL_STACK_VIOLATION"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2561,1): warning C4005: STATUS_FLOAT_MULTIPLE_FAULTS: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(7527,1):
+  см. предыдущее определение "STATUS_FLOAT_MULTIPLE_FAULTS"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2562,1): warning C4005: STATUS_FLOAT_MULTIPLE_TRAPS: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(7537,1):
+  см. предыдущее определение "STATUS_FLOAT_MULTIPLE_TRAPS"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2563,1): warning C4005: STATUS_REG_NAT_CONSUMPTION: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(7669,1):
+  см. предыдущее определение "STATUS_REG_NAT_CONSUMPTION"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2564,1): warning C4005: STATUS_HEAP_CORRUPTION: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(8652,1):
+  см. предыдущее определение "STATUS_HEAP_CORRUPTION"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2565,1): warning C4005: STATUS_STACK_BUFFER_OVERRUN: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(8880,1):
+  см. предыдущее определение "STATUS_STACK_BUFFER_OVERRUN"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2566,1): warning C4005: STATUS_INVALID_CRUNTIME_PARAMETER: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(9007,1):
+  см. предыдущее определение "STATUS_INVALID_CRUNTIME_PARAMETER"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2567,1): warning C4005: STATUS_ASSERTION_FAILURE: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(9070,1):
+  см. предыдущее определение "STATUS_ASSERTION_FAILURE"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2568,1): warning C4005: STATUS_ENCLAVE_VIOLATION: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(9988,1):
+  см. предыдущее определение "STATUS_ENCLAVE_VIOLATION"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2569,1): warning C4005: STATUS_INTERRUPTED: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(10415,1):
+  см. предыдущее определение "STATUS_INTERRUPTED"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2570,1): warning C4005: STATUS_THREAD_NOT_RUNNING: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(10424,1):
+  см. предыдущее определение "STATUS_THREAD_NOT_RUNNING"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2571,1): warning C4005: STATUS_ALREADY_REGISTERED: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(10718,1):
+  см. предыдущее определение "STATUS_ALREADY_REGISTERED"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2573,1): warning C4005: STATUS_SXS_EARLY_DEACTIVATION: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(14352,1):
+  см. предыдущее определение "STATUS_SXS_EARLY_DEACTIVATION"
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(2574,1): warning C4005: STATUS_SXS_INVALID_DEACTIVATION: изменение макроопределения
+  (компиляция исходного файла "yadecryptor.cpp")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\ntstatus.h(14361,1):
+  см. предыдущее определение "STATUS_SXS_INVALID_DEACTIVATION"
+  
+F:\Projects\Yandex\YandexDecrypt\yadecryptor.cpp(41,82): warning C4267: аргумент: преобразование из "size_t" в "DWORD"; возможна потеря данных
+F:\Projects\Yandex\YandexDecrypt\yadecryptor.cpp(182,57): warning C4267: аргумент: преобразование из "size_t" в "uint32_t"; возможна потеря данных
+  sqlite3.c
+  Создание кода
+  Previous IPDB not found, fall back to full compilation.
+  All 3376 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Создание кода завершено
+  YandexDecrypt.vcxproj -> F:\Projects\Yandex\x64\Release\YandexDecrypt.exe
